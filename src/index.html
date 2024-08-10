@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vite</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <button id="myBtn">Open Modal</button>
+
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2>CAR's MODEL</h2>
+            </div>
+            <div class="modal-body">
+                <p>Name : <span id="carName"></span></p>
+                <p>Price : <span id="carPrice"></span></p>
+                <p>cylinders : <span id="carCylinders"></span></p>
+            </div>
+            <!-- <div class="modal-footer">
+                <h3>Modal Footer</h3>
+            </div> -->
+        </div>
+
+    </div>
+    <canvas class="web"></canvas>
+    <script type="module" src="./script.js"></script>
+</body>
+
+</html>
